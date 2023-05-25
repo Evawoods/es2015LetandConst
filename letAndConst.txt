@@ -1,0 +1,9 @@
+var PI = 3.14;
+PI = 42;
+
+Instead change the var to const
+
+1. var allows you to redeclare and reassign , with Let you can only reassgin. Var can be access with a hoisted variable. Let creates a block scope.
+2. Unlike var, const does not allow redeclaration or reassigning. Const creates a block scope like let.
+3. Let and Const both create block scope. Both do not support redeclaration, but let allows reassignment. 
+4. Hoisting explains how the JS compiler works. Variables declared with var are hoisted which means they are "moved" to the top of the code. Essentially hoisted varaibles are run before the rest of the code. 
